@@ -12,7 +12,7 @@ docker run \
 ```
 Создаем БД:
 ```bash
-docker exec -it some-postgres psql -U postgres -c "CREATE DATABASE 2nd_task;"
+docker exec -it some-postgres psql -U postgres -c "CREATE DATABASE \"2nd_task\";"
 ```
 Клонируем этот репозиторий (или скачиваем .zip)
 ```bash
