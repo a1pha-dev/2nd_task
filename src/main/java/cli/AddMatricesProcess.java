@@ -50,7 +50,7 @@ public class AddMatricesProcess {
     private static void writeToRepository(RepositoryImpl repository, Matrix data) {
         try {
             repository.insert(data);
-            System.out.printf("Матрица %s успешно добавлена в таблицу.\n", data);
+            System.out.printf("Матрица\n%sуспешно добавлена в таблицу.\n", data);
         } catch (SQLException e) {
             System.out.printf("Ошибка при добавлении матрицы: %s\n", e.getMessage());
         } catch (IllegalStateException e) {
