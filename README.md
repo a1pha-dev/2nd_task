@@ -6,7 +6,6 @@ docker run \
     --name postgresdb \
     -e POSTGRES_USER=postgres \
     -e POSTGRES_PASSWORD=secret \
-    -e POSTGRES_DB=2nd_task \
     -p 5432:5432 \
     -d postgres:16
 ```
