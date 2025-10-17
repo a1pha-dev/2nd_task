@@ -93,7 +93,7 @@ public class RepositoryImpl implements Repository {
         String sql = "INSERT INTO " + sanitize(tableName) + " (matrix) VALUES (?)";
         Connection conn = getConnection();
         PreparedStatement ps = conn.prepareStatement(sql);
-        ps.setArray(1, conn.createArrayOf("integer", matrix.get_data()));
+        ps.setArray(1, conn.createArrayOf("integer", matrix.getData()));
         ps.executeUpdate();
     }
 

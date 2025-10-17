@@ -10,7 +10,7 @@ public final class Matrix extends ArrayPI {
         int rows1 = matrixData.length;
         int cols1 = matrixData[0].length;
 
-        int[][] anotherMatrixData = another_matrix.get_data();
+        int[][] anotherMatrixData = another_matrix.getData();
         int rows2 = anotherMatrixData.length;
         int cols2 = anotherMatrixData[0].length;
 

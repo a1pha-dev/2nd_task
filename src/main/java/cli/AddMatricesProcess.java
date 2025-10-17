@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class AddMatricesProcess {
 
-    public static void run_input(Scanner scanner, RepositoryImpl repository) {
+    public static void runInput(Scanner scanner, RepositoryImpl repository) {
         if (requireTable(repository)) return;
         Matrix m1 = inputMatrix(scanner, "A");
         Matrix m2 = inputMatrix(scanner, "B");
@@ -16,7 +16,7 @@ public class AddMatricesProcess {
         writeToRepository(repository, m2);
     }
 
-    public static void run_multiply(Scanner scanner, RepositoryImpl repository) {
+    public static void runMultiply(Scanner scanner, RepositoryImpl repository) {
         if (requireTable(repository)) return;
         System.out.println("Введите номера матрицы (A и B), произведение произодится справа: ");
         try {

@@ -8,7 +8,7 @@ public class ArrayPI {
         this.matrixData = matrixData;
     }
 
-    public int[][] get_data() {
+    public int[][] getData() {
         return matrixData;
     }
 }

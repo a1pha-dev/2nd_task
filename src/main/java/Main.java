@@ -26,8 +26,8 @@ public class Main {
             switch (scanner.nextLine().trim()) {
                 case "1" -> PrintTableProcess.run(repository);
                 case "2" -> ConnectOrCreateTableProcess.run(scanner, repository);
-                case "3" -> AddMatricesProcess.run_input(scanner, repository);
-                case "4" -> AddMatricesProcess.run_multiply(scanner, repository);
+                case "3" -> AddMatricesProcess.runInput(scanner, repository);
+                case "4" -> AddMatricesProcess.runMultiply(scanner, repository);
                 case "5" -> ExportTableProcess.run(repository);
                 case "0" -> {
                     System.out.println("Выход...");
