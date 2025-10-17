@@ -2,13 +2,13 @@ package models;
 
 public class ArrayPI {
 
-    protected int[][] data_first;
+    protected int[][] matrixData;
 
-    public ArrayPI(int[][] data_first) {
-        this.data_first = data_first;
+    public ArrayPI(int[][] matrixData) {
+        this.matrixData = matrixData;
     }
 
-    public int[][] getData_first() {
-        return data_first;
+    public int[][] get_data() {
+        return matrixData;
     }
 }

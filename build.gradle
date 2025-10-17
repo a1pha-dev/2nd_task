@@ -19,9 +19,6 @@ dependencies {
 
     // Excel
     implementation 'com.alibaba:easyexcel:4.0.3'
-
-    // Json
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.2'
 }
 
 application {
