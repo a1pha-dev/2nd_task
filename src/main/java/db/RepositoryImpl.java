@@ -150,10 +150,8 @@ public class RepositoryImpl implements Repository {
 
 
     private String sanitize(String name) {
-        if (name == null) {
-            return "";
-        }
-        return name.trim().toLowerCase().replaceAll("[^a-z0-9_]", "_");
+        //TODO: Add SQL-Injection checking
+        return name == null ? "" : name
     }
 
     private void requireTable() {
