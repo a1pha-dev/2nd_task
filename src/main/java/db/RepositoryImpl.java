@@ -74,7 +74,7 @@ public class RepositoryImpl implements Repository {
         }
 
         String sql = String.format("""
-                    CREATE TABLE %s (
+                    CREATE TABLE \"%s\" (
                         id SERIAL PRIMARY KEY,
                         matrix INT[][]
                     );
